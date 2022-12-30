@@ -1,0 +1,30 @@
+.user-list .container{
+    background-color: white;
+    border: 2px solid gray;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.user-list .container table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.user-list .container a{
+    text-decoration: none;
+    font-weight: 100;
+}
+.user-list .container table thead tr{
+    border-bottom: 2px solid black;
+}
+.user-list .container table thead{
+    margin-bottom: 20px;
+}
+.user-list .container table tbody tr{
+    border-bottom: 1px solid gray;
+}
+.user-list .container table td , 
+.user-list .container table th {
+    padding-top: 10px;
+    font-weight: bold;
+}

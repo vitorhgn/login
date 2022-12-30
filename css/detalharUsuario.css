@@ -1,0 +1,10 @@
+.details{
+    margin-left: 50px;
+}
+.details .details-group .label{
+    font-weight: bold;
+}
+.details .details-group .value{
+    font-weight: 100;
+    ;
+}

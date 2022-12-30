@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/detalharUsuario.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="container">
+            <span>Login System</span>
+            <div class="links">
+                <span id="userLogged"></span>
+                <a href="listaDeUsuarios.html">Dashboard</a>
+                <a id="logout" href="#">Sair</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <h1 id="nome"></h1>
+            <div class="details">
+                <div class="details-group">
+                    <span class="label">Email:</span> <span class="value" id="email"></span> 
+                </div>
+                <div class="details-group">
+                    <span class="label">Telefone:</span> <span class="value" id="telefone"></span>
+                </div>
+                <div class="details-group">
+                    <span class="label">Cargo:</span> <span class="value" id="cargo"></span>
+                </div>
+                <div class="details-group">
+                    <span class="label">Estado Cívil:</span> <span class="value" id="estadoCivil"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="./js/usersList.js"></script>
+    <script src="./js/shared.js"></script>
+    <script src="./js/detalharUsuario.js"></script>
+</body>
+</html>

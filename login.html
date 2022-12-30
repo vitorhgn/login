@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/layout.css">
+</head>
+<body>
+        <nav class="main-nav">
+            <div class="container">
+                <span>Login System</span>
+                <div class="links">
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+        </nav>
+        <section class="section-login">
+            <div class="container">
+                <form id="form-login" method="post">
+                    <div class="form-group">
+                        <label for="">E-mail</label>
+                        <input id="inputEmail" required type="email" name="email" placeholder="Digite seu e-mail"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input id="inputPassword" required type="password" name="password" placeholder="Digite sua senha"/>
+                    </div>
+                    <div class="button-group">
+                        <input type="submit" value="Entrar"/>
+                    </div>
+                    <div id="form-login-alert-error" class="alert alert-error hide">
+                        Desculpe, mas não encontramos esse usuário. Tente novamente.
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+        <script src="./js/login.js"></script>
+        <script src="./js/usersList.js"></script>
+</body>
+</html>
