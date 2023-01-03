@@ -7,11 +7,11 @@
     display: flex;
 }
 .section-login .container {
-    background-color: white;
+    background-color: #e5e5e5;
     max-width: 350px;
     width: 100%;
     padding: 15px;
-    border: 1px solid black;
+    border: 1px solid rgb(120, 120, 120);
     border-radius: 5px;
 }
 #form-login .form-group {
